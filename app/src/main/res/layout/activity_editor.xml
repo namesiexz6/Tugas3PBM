@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".EditorActivity">
+    <TextView
+        android:id="@+id/text_npm"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="NPM"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/edit_npm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="input npm"
+        android:autofillHints=""
+        android:textColor="#AFA4A4"/>
+
+    <TextView
+        android:id="@+id/text_nama"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Nama"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/edit_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="input nama"
+        android:autofillHints=""
+        android:textColor="#AFA4A4" />
+
+    <TextView
+        android:id="@+id/text_jurusan"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Jurusan"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/edit_jurusan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="input jurusan"
+        android:autofillHints=""
+        android:textColor="#AFA4A4" />
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="simpan"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:layout_margin="30dp"/>
+
+</LinearLayout>
